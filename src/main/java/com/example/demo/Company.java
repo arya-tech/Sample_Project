@@ -4,6 +4,15 @@ public class Company {
 
 	private String companyName;
 	private String address;
+	private String GSTNumber;
+
+	public String getGSTNumber() {
+		return GSTNumber;
+	}
+
+	public void setGSTNumber(String gSTNumber) {
+		GSTNumber = gSTNumber;
+	}
 
 	public String getCompanyName() {
 		return companyName;
@@ -23,7 +32,7 @@ public class Company {
 
 	@Override
 	public String toString() {
-		return "Company [companyName=" + companyName + ", address=" + address + "]";
+		return "Company [companyName=" + companyName + ", address=" + address + ", GSTNumber=" + GSTNumber + "]";
 	}
 
 }
