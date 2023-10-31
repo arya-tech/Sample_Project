@@ -40,10 +40,18 @@ public class Company {
 		this.code = code;
 	}
 
+	public Integer getEmpCount() {
+		return empCount;
+	}
+
+	public void setEmpCount(Integer empCount) {
+		this.empCount = empCount;
+	}
+
 	@Override
 	public String toString() {
 		return "Company [companyName=" + companyName + ", address=" + address + ", GSTNumber=" + GSTNumber + ", code="
-				+ code + "]";
+				+ code + ", empCount=" + empCount + "]";
 	}
 
 }
