@@ -31,9 +31,18 @@ public class Company {
 		this.address = address;
 	}
 
+	public String getCode() {
+		return code;
+	}
+
+	public void setCode(String code) {
+		this.code = code;
+	}
+
 	@Override
 	public String toString() {
-		return "Company [companyName=" + companyName + ", address=" + address + ", GSTNumber=" + GSTNumber + "]";
+		return "Company [companyName=" + companyName + ", address=" + address + ", GSTNumber=" + GSTNumber + ", code="
+				+ code + "]";
 	}
 
 }
