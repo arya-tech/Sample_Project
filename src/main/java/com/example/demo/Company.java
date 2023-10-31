@@ -5,6 +5,7 @@ public class Company {
 	private String companyName;
 	private String address;
 	private String GSTNumber;
+	private String code;
 
 	public String getGSTNumber() {
 		return GSTNumber;
