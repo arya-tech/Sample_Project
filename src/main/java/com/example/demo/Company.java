@@ -6,6 +6,7 @@ public class Company {
 	private String address;
 	private String GSTNumber;
 	private String code;
+	private Integer empCount;
 
 	public String getGSTNumber() {
 		return GSTNumber;
